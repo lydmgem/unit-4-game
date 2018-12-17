@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-image: url("https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/210770/b9342999d8ed77616aabf619d504a17cbdd1c62a.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.to-guess {
+    display: flex;
+    justify-content: center;
+}
+
+#target-num {
+    height: 200px;
+    width: 200px;
+}
+
+.to-choose {
+    display: flex;
+    padding: 20px 0 20px 0;
+}
